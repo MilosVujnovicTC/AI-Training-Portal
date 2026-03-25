@@ -2,7 +2,13 @@
 
 ## What this product is
 
-A B2B SaaS platform that helps IT-focused companies (SaaS, fintech, healthtech, agencies) document and enforce AI usage standards across their external vendor teams. The platform is not a training business — it is a vendor risk management and compliance documentation tool. Training is the mechanism; the paper trail is the product.
+A B2B SaaS platform that helps IT-focused companies (SaaS, fintech, healthtech, agencies) generate AI usage policies and internal governance documentation to control how their vendors use AI on their projects. The primary deliverable is the policy, the documentation, and the audit-ready paper trail. AI training is a complementary module that gives that documentation credibility — it is not the product.
+
+**The product hierarchy:**
+1. **Primary:** Policy generation, governance documentation, completion records — the paper trail companies need to prove vendor AI compliance
+2. **Complementary:** AI training module — what vendors complete to make the documentation meaningful
+
+The platform is not a training business. Training is the mechanism that makes the policy acknowledgement credible. The paper trail is what companies are actually buying.
 
 **One-sentence user value (company buyer):** "Your vendors are using AI on your projects — you have no idea how."
 
@@ -16,6 +22,7 @@ A B2B SaaS platform that helps IT-focused companies (SaaS, fintech, healthtech, 
 - Not a general AI compliance tool (not competing with Vanta, Drata, OneTrust)
 - Not a certification authority issuing regulated professional credentials
 - Not a consumer product — fully B2B across all tiers
+- **Not an AI training platform** — training is a complementary module, not the product. Never position it as a training or certification product. The product is vendor AI governance and policy documentation.
 
 ---
 
@@ -54,19 +61,35 @@ The platform is an **attestation and record-keeping platform**, not a certifying
 
 ## Two-layer product model
 
-**Layer 1 — Baseline certificate**
+**Primary layer — Policy and governance documentation**
+
+This is what companies are buying. The policy wizard generates a company-specific AI usage policy. Vendors read it, acknowledge it, and a timestamped completion record is produced. That record is the deliverable — auditable, defensible, and on record.
+
+**Complementary layer — AI training module**
+
+Training is what makes the policy acknowledgement credible. A vendor who has completed structured AI training before acknowledging a policy carries more weight than one who simply clicked through. The training module gives the documentation its credibility — but it is never sold as the primary product.
+
+**Layer 1 — Baseline training certificate** *(complementary)*
 - Issued by: the platform
 - Content: AI fundamentals, responsible use, data hygiene, prompt safety
 - Earnable independently before working with any specific company
 - Produces: shareable PDF cert + verifiable badge link
 - Valid 12 months, renewable
+- **Role:** Gives Layer 2 credibility. Not the headline product.
 
-**Layer 2 — Company policy acknowledgement**
+**Layer 2 — Company policy acknowledgement** *(primary)*
 - Issued by: the client company (platform facilitates, company signs off)
 - Content: company-specific AI policy module + e-signature acknowledgement
 - Requires Layer 1 as prerequisite
 - Produces: timestamped completion record (not marketed as a "certificate")
 - Called "completion record" or "policy acknowledgement" — never "certificate"
+- **Role:** This is what companies pay for. The paper trail. The documentation.
+
+**Positioning rule — never invert this hierarchy:**
+- Do not lead with "AI certification" in any marketing copy
+- Do not describe the platform as a "training platform" or "certification platform"
+- Always lead with policy generation, governance documentation, vendor control
+- Training is mentioned as the mechanism that makes documentation meaningful, not as the product itself
 
 ---
 
@@ -263,12 +286,14 @@ The decision not to offer a free trial was made after reviewing:
 ## Product features by tier (reference for building pricing page and product)
 
 **Founder plan (€79–€99/mo or one-time)**
-- Layer 1 baseline certificate (issued to their business entity)
-- Shareable badge + PDF cert
+- Primary value: your own AI usage policy for your freelance practice — documented, on record, presentable to clients
+- AI training completion to back it up (Layer 1 cert issued to their business entity)
+- Shareable badge + PDF cert (supporting credential, not the headline)
 - Certificate valid 12 months, renewal €29/yr
-- Basic AI usage policy document for their own practice
 - Their own Layer 2 completion record to present to clients
 - Email support only
+
+**Founder plan positioning:** Do not lead with "get a cert for your Upwork profile." Lead with "have a documented AI usage policy you can show clients when they ask." The cert is the supporting proof, not the reason to buy.
 
 **Company plan (€249/mo)**
 - Everything in Founder
@@ -521,9 +546,10 @@ The idea of third-party course creators contributing content is valid — revisi
 
 ## Naming and language conventions
 
-**Do use:**
+**Lead with these in all copy — policy and governance first:**
+- "AI usage policy" — the primary product noun
+- "vendor AI governance"
 - "completion record" or "policy acknowledgement" (Layer 2 output)
-- "certificate" (Layer 1 output only)
 - "attestation platform"
 - "vendor risk management"
 - "AI usage standards"
@@ -532,11 +558,17 @@ The idea of third-party course creators contributing content is valid — revisi
 - "get it on record" — core positioning phrase, use in headlines and CTAs
 - "on record" — shorthand version of above
 
-**Do not use:**
-- "certification" for Layer 2 output
-- "certified as AI compliant" or "uses AI responsibly" (behavioral claims)
-- "training business" or "learning platform" (wrong category)
-- "free trial" (decision made — use "money-back guarantee" instead)
+**Supporting / secondary — use to describe the training module, not the product:**
+- "certificate" (Layer 1 output only — supporting credential)
+- "AI training module" — always framed as complementary, not primary
+
+**Never use:**
+- "AI training platform" or "certification platform" — wrong category entirely
+- "certification" for Layer 2 output — use "completion record" or "policy acknowledgement"
+- "certified as AI compliant" or "uses AI responsibly" — behavioral claims the platform cannot make
+- "training business" or "learning platform" — wrong category
+- "free trial" — the product offers a "14-day money-back guarantee"
+- Any headline or CTA that leads with the certificate before the policy
 
 ---
 
